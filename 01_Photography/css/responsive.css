@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1200px) {
+	
+}
+
+@media only screen and (max-width: 992px) {
+	
+	
+	header ul.main-menu > li > a{ padding: 0 5px; }
+}
+@media only screen and (max-width: 767px) {
+	
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 3em; }
+	h2{ font-size: 2em; }
+	h3{ font-size: 1.8em; }
+
+
+	
+	header .main-menu{ display: none; position: absolute; top: 60px; left: 0; right: 0; float: none; 
+		opacity: 0; z-index: 1; height: auto; text-align: left; background: #fff; }
+	
+	header .main-menu.visible-menu{ display: block; box-shadow: 0 4px 20px -10px rgba(0,0,0,.4); 
+		animation: full-opacity-anim .2s forwards ease; }
+	
+	@keyframes full-opacity-anim{
+		
+		100%{ opacity: 1; }
+	}
+	
+	header .main-menu > li{ display: block; }
+	
+	header ul.main-menu > li > a{ display: block; height: auto; line-height: 1; padding: 15px; 
+		border-top: 1px solid #eee; }
+		
+	
+	
+
+	.menu-nav-icon{ display: block; }
+	
+	
+	
+	
+	header .main-menu li.drop-down > ul.drop-down-menu{ position: static; box-shadow: none; }
+	
+	header .main-menu li.drop-down > ul.drop-down-menu li{ border-top: 1px solid #eee; }
+	header .main-menu li.drop-down > ul.drop-down-inner li:first-child{ border-top: 1px solid #ddd; }
+	
+	
+	
+	header .main-menu li.drop-down > ul.drop-down-menu li a{ padding-left: 25px; }
+	
+	header .main-menu li.drop-down > ul.drop-down-inner li a{ padding-left: 35px; }
+	
+	
+	
+	
+	.tp-leftarrow,
+	.tp-rightarrow{ top: auto!important; bottom: 10px!important; }
+
+	.tp-bullets{ top: auto!important; bottom: 10px!important; }
+	
+	
+
+	footer{ text-align: left; }
+	
+	footer .copyright{ display: none; }
+	
+	
+	
+	footer .social-icons > li > a{ margin-left: 10px; }
+	
+	
+}
+
+@media only screen and (max-width: 575px) {
+	
+
+	body{ font-size: 14px; margin: 0; padding: 60px 0; height: 100%; width: 100%; }
+	
+	
+
+	header{ padding: 0 15px; }
+	
+	header .right-area{ display: none; }
+	
+	header ul.main-menu > li > a{ padding: 15px; }
+	
+
+	.menu-nav-icon{ float: right; }
+	
+	
+
+	footer{ padding: 0 15px; }
+	
+	footer .social-icons{ right: 15px; }
+	
+	footer .social-icons > li > a{ margin-left: 5px; }
+	
+}
+
+@media only screen and (max-width: 479px) {
+
+
+}
+@media only screen and (max-width: 359px) {
+	
+
+	header .heading-wrapper{  padding: 30px 20px 20px; }
+
+	header .info .icon{ font-size: 25px; }
+
+	header .info .right-area{ margin-left: 35px; }
+
+}
+
+@media only screen and (max-width: 290px) {
+
+
+	footer{ padding: 0 10px; }
+	
+}
+
+@media only screen and (max-width: 260px) {
+	
+	
+	
+}
